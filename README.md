@@ -108,11 +108,3 @@ The application uses SQLite as the database. The following tables are created:
 ### License
 
 This project is licensed under the MIT License.
-```
-
-### License
-
-```markdown
-MIT License
-
-```
