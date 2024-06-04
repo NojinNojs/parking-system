@@ -1,0 +1,60 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-font-size: 14px;
+    -fx-background-color: #f0f0f0;
+}
+
+.vbox {
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 10, 0, 0, 0);
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-pref-width: 200px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #3b5998;
+}
+
+.button {
+    -fx-background-color: #3b5998;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #4c70ba;
+}
+
+.button-secondary {
+    -fx-background-color: #aaa;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #bbb;
+}
+
+.status-label {
+    -fx-font-size: 14pt;
+    -fx-padding: 10px;
+    -fx-text-fill: #333;
+}
